@@ -16,7 +16,8 @@ body {
 .insta-logo {
     margin-bottom: 20px;
 }
-.container-imagens{
+
+.container-imagens {
     position: relative;
 }
 
@@ -25,7 +26,8 @@ body {
 
     width: 450px;
 }
-.imagem50{
+
+.imagem50 {
     height: 535px;
     position: absolute;
     left: 148px;
@@ -84,8 +86,8 @@ button {
     text-align: center;
     cursor: pointer;
     font-size: 13px;
-    
-    
+
+
 }
 
 .conteiner-cadastro {
@@ -128,3 +130,14 @@ button {
 .logo-app {
     width: 150px;
 }
+
+@media(max-width: 800px) {
+    body {
+        background-color: cornflowerblue;
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        height: 0%;
+        margin-bottom
+    }
