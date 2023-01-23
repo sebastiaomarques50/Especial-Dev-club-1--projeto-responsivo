@@ -138,6 +138,6 @@ button {
         display: flex;
         flex-direction: column;
         width: 98%;
-        height: 0%;
+        height: 1%;
         margin-bottom
     }
